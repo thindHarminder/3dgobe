@@ -35,9 +35,9 @@ class TrackballControls extends EventDispatcher {
 
 		this.noRotate = false;
 		this.noZoom = true;
-		this.noPan = false;
+		this.noPan = true;
 
-		this.staticMoving = true;
+		this.staticMoving = false;
 		this.dynamicDampingFactor = 0.2;
 
 		this.minDistance = 0;
